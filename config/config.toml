@@ -1,0 +1,29 @@
+concurrent = 2
+
+[[runners]]
+  name = "ruby-2.1-docker-1"
+  url = "$GITLAB_CI_URL"
+  token = "$GITLAB_RUNNER_TOKEN"
+  limit = 0
+  executor = "docker"
+  builds_dir = ""
+  [runners.docker]
+    host = ""
+    image = "ruby:2.1"
+    privileged = false
+    disable_cache = false
+    cache_dir = ""
+
+[[runners]]
+  name = "ruby-2.1-docker-2"
+  url = "$GITLAB_CI_URL"
+  token = "$GITLAB_RUNNER_TOKEN"
+  limit = 0
+  executor = "docker"
+  builds_dir = ""
+  [runners.docker]
+    host = ""
+    image = "ruby:2.1"
+    privileged = false
+    disable_cache = false
+    cache_dir = ""
