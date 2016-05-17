@@ -1,1 +1,1 @@
-Holds specific configuration for image `gitlab/gitlab-runner`. Docker image requires `ENV['GITLAB_CI_URL']` and `ENV['GITLAB_RUNNER_TOKEN']` to be set.
+Holds specific configuration for image `gitlab/gitlab-runner`. Docker image requires `ENV['GITLAB_CI_URL']`, `ENV['GITLAB_RUNNER_IMAGE']`, `ENV['GITLAB_RUNNER_DESC']` and `ENV['GITLAB_RUNNER_TOKEN']` to be set.
